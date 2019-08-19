@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Start Header part design*/
+.header{
+    background: #3D5996;
+    overflow: hidden;
+}
+.header::after{
+    content: '';
+    color: both;
+    display: block;
+}
+.container{
+    width: 65%;
+    margin: auto;
+    max-width: 893px; /*used for responsive design purpose, akhon device er screen size 5000 holeo problem nai */
+}
+.logo-area{width: 30%; float: left;}
+.logo-area img{
+    height: 76px;
+    width: 233px;
+    padding-top: 6px;
+}
+
+.login-area{width: 70%;float: left; color: white;}
+
+.login-area form{    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.login-area label,.login-area input{display: block;} /* jinish gula niche niche korar jonno */ 
+.login-area label{font-size: 13px; margin-bottom: 5px;}
+
+.login-area .email,
+.login-area .password,
+.login-area .login{float: left;margin-right: 15px;}
+
+.login-area .login{margin-right: 0px;}
+
+.login-area .input[type="text"],.login-area .input[type="password"]{border: 1px solid #000; font-size: 14px; font-weight: 300; padding: 2px 5px;}
+
+.login-area .password a{
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 12px;
+}
+.login-area .password a:hover{text-decoration: underline;}
+
+.login-area input[type="submit"]{
+    background: #4267B2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 3px 8px;
+    margin-top: 21px;
+    font-weight: 500;
+}
+/* End Header part design*/
+
+/*************** Start Main body part design ************/
+.signup-area{
+    padding: 25px 0; /* pashe 0 ta likhte hbe, eta na lekhar karone onek jhamela hoccilo, it means dane bame padding zero */
+    background: linear-gradient(#ffffff, #D4D9E9);
+
+} 
+
+.signup-area::after{ /* piche je background use korbo seta jate chole na jay tai eta use kora hoyeche*/
+    content: '';
+    clear: both; 
+    display: block;
+}
+.left-area{
+    width: 55%;
+    float: left;
+}
+.right-area{
+    width: 45%;
+    float: left;
+}
+.left-area p{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-top: 40px;
+    width: 90%;
+    word-spacing: -1px;
+}
+.left-area img{
+    width: 100%;
+}
+
+.right-area h2{
+    font-size: 33px;
+    color: #333;
+    margin: 0;
+}
+.right-area h4{
+    font-size: 19;
+    color: #1d2129;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right-area input[type="text"],.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.full-name{overflow: hidden;}
+.first-name{width: 48%; float: left; margin-right: 4%;}
+.sur-name{width: 48%; float: left;}
+
+.birthday{overflow: hidden;}
+.birthday h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.birth-date{
+    overflow: hidden;
+    float: left;
+    margin-right: 1opx;
+    width: 211px;
+}
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
+.birth-link{
+    float: left;
+    width: 170px;
+    margin-left: 12px;
+}
+.birth-link a{
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+    line-height: 1.1;
+    color: #365899;
+}
+.birth-link a:hover{text-decoration: underline;}
+
+.gender{margin: 10px 0;}
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
+
+.text-box{margin-bottom: 20px;}
+.text-box p{font-size: 13px; color: #777; width: 90%}
+.text-box a{text-decoration: none; color: #365899}
+.text-box a:hover{text-decoration: underline;}
+
+.btn{margin-bottom: 30px;}
+.btn input{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.btn input:hover{
+    background: linear-gradient(#578843,#67ae55); /*just ager background er color er exchange holo */
+    cursor: pointer;
+}
+
+.business{font-weight: 600; color: #666;}
+.business a{text-decoration: none; color: #365899;}
+.business a:hover{text-decoration: underline;}
+
+
+/***********  End Main body part design  ***********/
+
+/***********  Start Footer part design  ***********/
+.footer-area{
+    padding: 30px 0;
+}
+.footer-area ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li{
+    display: inline;
+}
+.footer-area ul li a{
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+.footer-area ul li.active a{color: #737373}
+
+.footer-area ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-area .top ul li {margin-right: 8px;}
+.footer-area .middle ul li {margin-right: 12px;}
+.footer-area .top ul li:last-child,.footer-area .middle ul li:last-child{margin-right: 0;}
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    padding: 0 6px;
+    font-weight: bold;
+}
+
+.footer-area hr{
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.footer-area .bottom {
+    margin-top: 20px;
+}
+.footer-area span{
+    color: #737373;
+    font-size: 13px;
+}
+
+
+/***********  End Fotter part design  ***********/
+
+
+
+
+
+
+
+
